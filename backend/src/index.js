@@ -22,7 +22,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",              // local dev
-      "https://YOUR_FRONTEND.vercel.app"    // production
+      "https://chat-app-eosin-iota-86.vercel.app"    // production
     ],
     credentials: true,
   })
