@@ -21,7 +21,8 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",              // local dev
+      "http://localhost:5173",   
+         "https://chat-app-euj2.onrender.com",           // local dev
       "https://chat-app-eosin-iota-86.vercel.app"    // production
     ],
     credentials: true,
